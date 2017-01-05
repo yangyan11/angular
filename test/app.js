@@ -1,14 +1,4 @@
-//angular.module("myapp",["ngRoute"])
-//   .config(function($routeProvider){
-//       $routeProvider.when("/",{
-//           templateUrl:"demo1.html"
-//       }).when("/list/:id",{
-//           templateUrl:"list.html",
-//           controller:"list"
-//       }).ortherwise("/")
-//   }).controller("list",function($scope,$routeParams){
-//    $scope.id=$routeParams.id
-//})
+
 angular.module("myapp",["ngRoute","ngAnimate","ctrls","services"])
     .config(function($routeProvider){
         $routeProvider.when("/",{
